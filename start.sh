@@ -1,0 +1,10 @@
+# Copyright © 2023-2024 by piroxpower@Github, < https://github.com/piroxpower >.
+#
+# This file is part of < https://github.com/Team-Deadly/Manager > project,
+# and is released under the "GNU v3.0 License Agreement".
+# Please see < https://github.com/Team-Deadly/Manager/blob/main/LICENSE >
+#
+# All rights reserved ®.
+
+git clone https://github.com/Team-Deadly/InnexiaBot bot && cd bot && pip3 install -U -r requirements.txt
+python3 -m InnexiaBot
