@@ -6,5 +6,5 @@
 #
 # All rights reserved ®.
 
-git clone https://github.com/Team-Deadly/InnexiaBot && cd InnexiaBot && pip3 install -U -r requirements.txt
+cd InnexiaBot && pip3 install -U -r requirements.txt
 python3 -m InnexiaBot
