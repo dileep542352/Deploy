@@ -12,7 +12,7 @@ RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 COPY requirements.txt ./requirements.txt
 RUN pip3 install -r requirements.txt
-COPY start.sh start.sh
+COPY start start
 COPY app.py app.py
 EXPOSE 5000
 CMD bash start
